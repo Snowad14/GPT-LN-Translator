@@ -13,7 +13,7 @@ To use the tool, you will need to provide the following arguments:
 - `--openai-model`: The OpenAI API engine to use (default: gpt-3.5-turbo, other options: text-davinci-003, gpt-4).
 
 Here's an example of how to use the tool:
-```python translate.py --input novel.txt --lang-out English --length-limit 5000 --openai-key <your-api-key> --openai-model gpt-3.5-turbo```
+```python translate.py --input novel.txt --lang-out English --length-limit 4000 --openai-key <your-api-key> --openai-model gpt-3.5-turbo```
 
 ## Installation 🛠️
 
