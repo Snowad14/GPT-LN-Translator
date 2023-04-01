@@ -22,3 +22,7 @@ Here's an example of how to use the tool:
 
 2. Install the dependencies:
 ```pip install -r requirements.txt```
+
+## Explanation of Code 🤔
+
+My code will use a coefficient that can be calculated from the previous translation that allows to know approximately how many words the model will give. This allows to find the ideal number of Japanese characters to put in the prompt so that it can give a complete translation in the desired language with the maximum possible context
