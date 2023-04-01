@@ -1,4 +1,4 @@
-# GPT-Novel-Translator 💬📚
+# GPT-LN-Translator 💬📚
 
 This is a command-line tool for translating novels using OpenAI's GPT language models. The tool allows you to translate a TXT file from any language to English using the OpenAI API.
 
