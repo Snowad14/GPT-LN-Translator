@@ -3,7 +3,7 @@ import argparse, tiktoken, openai, math, concurrent.futures, uuid
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', type=str, required=True, help='TXT File path that will be translated')
 parser.add_argument('--lang-out', type=str, default='English', help='Directory for storing model')
-parser.add_argument('--length-limit', type=str, default=4000, help='Max Length of the prompt')
+parser.add_argument('--length-limit', type=int, default=4000, help='Max Length of the prompt')
 parser.add_argument('--openai-key', type=str, required=False, help='OpenAI API Key')
 parser.add_argument('--openai-model', type=str, default='gpt-3.5-turbo', help='OpenAI API Engine') # gpt-3.5-turbo, text-davinci-003, gpt-4
 args = parser.parse_args()
